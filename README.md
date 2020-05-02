@@ -1,5 +1,6 @@
 # FileProvider
-File Provider Error
+File Provider Error 
+i.e. FileUriExposedException: file:///storage/emulated/0/image01.jpg exposed beyond app through ClipData.Item.getUri()
 
 
 If targetSdkVersion is higher than 24, then FileProvider is used to grant access.
