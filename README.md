@@ -16,7 +16,7 @@ Create an xml file(Path: res\xml) provider_paths.xml
 Add a Provider in AndroidManifest.xml
 
     <provider
-        android:name="android.support.v4.content.FileProvider"
+        android:name="android.support.v4.content.FileProvider" //android.support.v4.content.FileProvider
         android:authorities="${applicationId}.provider"
         android:exported="false"
         android:grantUriPermissions="true">
